@@ -15,4 +15,4 @@ After cleaning the data, we expect to be able to answer the following questions:
      What time of the had posts performed the most?
 	 Which posts had the best and the worst engagement rate?
 	 The fact that post the link on the comment section really boosted the performance?
-	 What is the demographic of people who followed and visited the page in the last year? */
+	 What is the demographic of people who followed and visited the page in the last year? 
