@@ -444,4 +444,11 @@ FROM visits_stats_staging;
 
 -- All datasets are ready to the analysis 
  
+  -- DATA VALIDATION
  
+/* When I went back to the questions we are going to answer, I noticed that the 'contenu_type' in the 'content_posts_staging' has only one value (vidéo). 
+ Also, we don't have the information about the presence or not of links in the posts content. So we must fix it manually outside MySQL Workbench. Then, 
+we can import a new dataset with this new data and join it later with 'content_posts_staging' using the 'post_id' as an unique key during the analysis*/
+ 
+ SELECT *
+ FROM content_posts_staging;
